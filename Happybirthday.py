@@ -35,7 +35,11 @@ def my_birthday():
     h = k + g
     if h > 30:
         s = h - 30
-    
-    print(i+', '+ 'your birth day is in','2024',str(s)+'th of',x+'.')
+    else:
+        s = h
+    c = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December' ]
+    l = c[z]
+    print(i+', '+ 'your birth day is in','2024',str(s)+'th of',l+'.')
+    print('Thank you for your patience!')
 
 my_birthday()
