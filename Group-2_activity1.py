@@ -1,3 +1,8 @@
+"""Group: 2
+   Authors: Dona Pal
+   Date: 09/02/2024
+   Manifesto: This is a program is written to draw a hexagon, circle and square in a pattern in a row; and repeat the pattern two more times at different positions. """
+
 import turtle
 
 '''The following function draws hexagon with a given side_length and border_color and fills it with a given hex_color.'''
@@ -80,7 +85,7 @@ def main():
     w = input('Enter the color what you want to fill the hexagon with: ')
     x = input('Enter the color what you want to fill the circle with: ')
     y = input('Enter the color what you want to fill the square with: ')
-    z = input('Enter the color what you want for the border of the shapes. ')
+    z = input('Enter the color what you want for the border of the shapes: ')
     turtle.tracer(True)
     turtle.bgcolor('SkyBlue')
     pattern(w,x,y,z)
