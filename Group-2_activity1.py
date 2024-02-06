@@ -77,12 +77,12 @@ def pattern(hex_color,circle_color,square_color,border_color):
     square(90,border_color,square_color)
 
 def main(): 
-    w = input('Enter the color what you want to fill the hexagon with. ')
-    x = input('Enter the color what you want to fill the circle with. ')
-    y = input('Enter the color what you want to fill the square with. ')
+    w = input('Enter the color what you want to fill the hexagon with: ')
+    x = input('Enter the color what you want to fill the circle with: ')
+    y = input('Enter the color what you want to fill the square with: ')
     z = input('Enter the color what you want for the border of the shapes. ')
     turtle.tracer(True)
-    turtle.bgcolor('black')
+    turtle.bgcolor('SkyBlue')
     pattern(w,x,y,z)
     turtle.done()
 main()
